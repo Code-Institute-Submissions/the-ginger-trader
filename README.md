@@ -1,4 +1,4 @@
-# the ginger trader
+# **the ginger trader**
 
 # introduction
 
@@ -9,6 +9,17 @@ The site provides contact details and a form so customers can quickly and easily
 
 # ux
 
+Site User wants to
+- find a handyman/woman that will do a specific job for them
+- find a price for the job that they want to be done
+- see that the business has a solid background and reputation and works to a high 
+
+Site Owner wants to
+- grow their business and increase their client base by promoting thier services
+- highlight the different services offered by the business
+- showcase their previous projects to demonstrate their quality of skills and customer satisfaction
+- give the clients a quick and easy way for them to contact the business
+
 # features
 
 # technologies used
@@ -16,7 +27,7 @@ The site provides contact details and a form so customers can quickly and easily
 - HTML: layout and content 
 - CSS: styling
 - Font Awesome: icons that visually represent the services the business offers https://fontawesome.com
-- Google Fonts: a font family that represents the style and deign of the business https://fonts.google.
+- Google Fonts: a font family that represents the style and deign of the business https://fonts.google.com
 - Bootstrap: for the structuring of the site https://bootstrapcdn.com
 
 # testing
