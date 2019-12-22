@@ -4,6 +4,10 @@
 
 body {font-family: "Poppins", sans-serif;}
 
+.orange-color {
+color: #f74e00;
+}
+
 /*---------------- navbar -------------------*/
 
 .nav-container {
@@ -25,24 +29,50 @@ body {font-family: "Poppins", sans-serif;}
     border:0;
 }
 
-.navbar a:hover {
-color: #333
+button.navbar-toggler:focus { outline: 1px none; } 
+
+.navbar .navbar-logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #f74e00;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
-.navbar .navbar-brand {
-    font-weight: 800;
-    color: #f74e00;
+.navbar .navbar-logo:hover {
+    color: white;
 }
+
 
 .fa-bars {
+    border: none;
+    font-size: 26px;
     color: #f74e00;
 }
 
-.navbar .navbar-nav .link {
-    margin-bottom: 25px;
-    color: #f74e00;
+ul.navbar-nav > li.mt-10 {
+    margin-top: 10px;
+    }
+
+ul.navbar-nav > li.mb-10 {
+    margin-bottom: 10px;
+    }
+
+ul.navbar-nav > li.nav-item > a.custom-link {
+    font-size: 16px;
+    color: white;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
+
+ul.navbar-nav > li.nav-item > a.custom-link:hover {
+    color: #f74e00;
+    text-decoration: none;
+}
 
 
 /*---------------- hero ----------------- */
