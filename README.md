@@ -3,7 +3,7 @@
 # introduction
 
 This project has been created so that the ginger trader handywoman business can boost sales of their services by 
-highlighting the serices offered and by showcasing previous projects alongside client testimonials. 
+highlighting the services offered and by showcasing previous projects alongside client testimonials. 
 
 The site provides contact details and a form so customers can quickly and easily contact the business
 

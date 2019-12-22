@@ -2,6 +2,48 @@
 
 /*-------- colors: orange - #f74e00 / rgb (247, 78, 0); grey - #786e65 rgb (120, 110, 101) --------*/
 
+body {font-family: "Poppins", sans-serif;}
+
+/*---------------- navbar -------------------*/
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+    }
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(120, 110, 101, 0.5);}
+
+.navbar .navbar-toggler {
+    border:0;
+}
+
+.navbar a:hover {
+color: #333
+}
+
+.navbar .navbar-brand {
+    font-weight: 800;
+    color: #f74e00;
+}
+
+.fa-bars {
+    color: #f74e00;
+}
+
+.navbar .navbar-nav .link {
+    margin-bottom: 25px;
+    color: #f74e00;
+}
+
+
 
 /*---------------- hero ----------------- */
 
