@@ -4,8 +4,23 @@
 
 body {font-family: "Poppins", sans-serif;}
 
-.orange-color {
-color: #f74e00;
+.bg-grad {
+    background-image: linear-gradient(#bbb6b2, #ffffff) 
+}
+
+h2 {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #f74e00;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /*---------------- navbar -------------------*/
@@ -23,13 +38,17 @@ color: #f74e00;
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(120, 110, 101, 0.5);}
+    background-color: rgba(120, 110, 101);}
 
 .navbar .navbar-toggler {
     border:0;
 }
 
-button.navbar-toggler:focus { outline: 1px none; } 
+/* line of code below from stackoverflow query and response */
+
+button.navbar-toggler:focus { 
+    outline: none;
+} 
 
 .navbar .navbar-logo {
     font-size: 26px;
@@ -45,11 +64,17 @@ button.navbar-toggler:focus { outline: 1px none; }
     color: white;
 }
 
-
 .fa-bars {
     border: none;
     font-size: 26px;
     color: #f74e00;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.fa-bars:hover {
+    color: #ffffff;
 }
 
 ul.navbar-nav > li.mt-10 {
@@ -75,7 +100,24 @@ ul.navbar-nav > li.nav-item > a.custom-link:hover {
 }
 
 
-/*---------------- hero ----------------- */
+/*---------------- who we are ----------------- */
+
+.who-we-are {
+    margin-top: 3.4em;
+}
+
+.who-we-are-photo {
+    margin: 15px;
+    background: url("../images/the-ginger-trader.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 
 /*---------------- what we do ----------------- */
 
