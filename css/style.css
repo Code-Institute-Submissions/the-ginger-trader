@@ -2,10 +2,17 @@
 
 /*-------- colors: orange - #f74e00 / rgb (247, 78, 0); grey - #786e65 rgb (120, 110, 101) --------*/
 
-body {font-family: "Poppins", sans-serif;}
+body {
+    font-family: "Poppins", sans-serif;
+    color: #786e65;
+    }
 
-.bg-grad {
-    background-image: linear-gradient(#bbb6b2, #ffffff) 
+.bg-grad-grey {
+    background-image: linear-gradient(#bbb, #fff); 
+}
+
+.bg-grad-orange {
+    background-image: linear-gradient(#fff, #f74e00); 
 }
 
 h2 {
@@ -15,13 +22,69 @@ h2 {
     color: #f74e00;
 }
 
+h3 {
+    padding: 15px 15px 0px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f74e00;
+}
+
+
 .lowercase {
     text-transform: lowercase;
+}
+
+.inline {
+    display: inline;
 }
 
 .inline-block {
     display: inline-block;
 }
+
+/* gives the section a relative position  */
+section {
+position: relative;
+}
+
+/* catches the overflow from after/before   */
+.region-wrap {
+    overflow: hidden;
+}
+
+/* big triangle */
+
+.big-triangle:before {
+    right: 50%;
+    border-right: 1000px solid transparent;
+    border-left: 1000px solid;
+}
+
+.big-triangle:after {
+    left: 50%;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid;
+}
+
+.big-triangle:after, .big-triangle:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    z-index: 100;
+    border-bottom: 60px solid #bbb;
+    -moz-transform: rotate(0.000001deg);
+    -webkit-transform: rotate(0.000001deg);
+    -o-transform: rotate(0.000001deg);
+    -ms-transform: rotate(0.000001deg);
+    transform: rotate(0.000001deg);
+}
+
+.divider {
+    position: relative;
+    min-height: 60px;
+}
+
 
 /*---------------- navbar -------------------*/
 
@@ -31,7 +94,7 @@ h2 {
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
+    z-index: 101;
     }
 
 .navbar {
@@ -113,6 +176,7 @@ ul.navbar-nav > li.nav-item > a.custom-link:hover {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+    max-width: 420px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -121,8 +185,46 @@ ul.navbar-nav > li.nav-item > a.custom-link:hover {
 
 /*---------------- what we do ----------------- */
 
+.what-we-do-icon {
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.circle-orange {
+    width: 65px;
+    height: 65px;
+    padding: 12px;
+    margin: 20px;
+    border: 2px solid #f74e00;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    color: #f74e00;
+}
+
+.fa {
+    text-align: center;
+    font-size: 26px;
+    color: #f74e00;
+}
+
+.what-we-do-column {
+    text-align: center;
+    margin:0;
+    height: 150px;
+}
+
+
+
+
+
 /*---------------- testimonials ----------------- */
 
 /*---------------- get a quote ----------------- */
 
 /*---------------- footer ----------------- */
+
+.footer {
+    min-height: 100px;
+    background-color: #786e65;
+}
