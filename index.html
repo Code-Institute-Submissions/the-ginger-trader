@@ -32,14 +32,14 @@
 
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-					<ul class="navbar-nav mr-auto">
-						<li class="active nav-item mt-10"><a class="custom-link" href="index.html">who we are</a>
+					<ul class="navbar-nav mr-auto" data-target=".navbar-collapse" data-toggle="collapse">
+						<li class="nav-item mt-10"><a class="custom-link" href="index.html">who we are</a>
 						</li>
 						<li class="nav-item mt-10"><a class="custom-link" href="#what-we-do">what we do</a>
 						</li>
 						<li class="nav-item mt-10"><a class="custom-link" href="#testimonials">testimonials</a>
 						</li>
-						<li class="nav-item mt-10 mb-10"><a class="custom-link" href="get-a-quote.html">get a quote</a>
+						<li class="nav-item mt-10 mb-10"><a class="custom-link" href="#get-a-quote">get a quote</a>
 						</li>
 					</ul>
 				</div>
@@ -98,26 +98,26 @@
 
 		<div class="row no-gutters">
 			<div class="col-12 col-md-6 col-lg-3 what-we-do-column">
-				<i class="fa fa-screwdriver"></i><br>
+				<i class="fa fa-screwdriver" aria-hidden="true"></i><br>
 				<h3>fixing and fitting</h3><br>
                     locks, handles, hinges, lights etc
             </div>
-			<div class="col-12 col-md-6 col-lg-3 what-we-do-column">
-				<i class="fa fa-paint-roller"></i><br>
-				<h3>decorating</h3><br>
+				<div class="col-12 col-md-6 col-lg-3 what-we-do-column">
+					<i class="fa fa-paint-roller" aria-hidden="true"></i><br>
+					<h3>decorating</h3><br>
                     wallpapering, painting, plastering repairs
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 what-we-do-column">
-				<i class="fa fa-hammer"></i><br>
-				<h3>carpentry</h3><br>
+					<div class="col-12 col-md-6 col-lg-3 what-we-do-column">
+						<i class="fa fa-hammer" aria-hidden="true"></i><br>
+						<h3>carpentry</h3><br>
                     shelves, doors, kitchen units
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 what-we-do-column">
-				<i class="fa fa-pencil-alt"></i><br>
-				<h3>odd jobs</h3><br>
+						<div class="col-12 col-md-6 col-lg-3 what-we-do-column">
+							<i class="fa fa-pencil-alt" aria-hidden="true"></i><br>
+							<h3>odd jobs</h3><br>
                     tiling, hanging pictures, you name it
         	</div>
-        </div>
+						</div>
 	</section>
 
 
@@ -136,22 +136,22 @@
 	<section class="container-fluid testimonials bg-grad-grey">
 		<h2 class="heading-padding"><a name="testimonials">testimonials</a></h2>
 		<div class="row no-gutters my-auto">
-			<div class="col-12 col-md-6 col-lg-3">
-				<div class="testimonial-1-photo mx-auto rounded-circle testimonial-column">
+			<div class="col-12 col-md-4 col-lg-3">
+				<div class="testimonial-1-photo mx-auto rounded-circle testimonial-column" aria-hidden="true">
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 testimonial-column">
+			<div class="col-12 col-md-8 col-lg-3 testimonial-column">
 				<p><i class="fa fa-quote-right"></i> I wanted a different way to display my photos and books
 					and Jane created the perfect design for both, making beautiful walnut stained bookshelves specially
 					made to fit an alcove <br>
 					<a href="../images/diy-jobs-the-ginger-trader.png" target="_blank">take a look here</a></p>
 				<h4>- Kate Smith</h4><br>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3">
-				<div class="testimonial-2-photo mx-auto rounded-circle testimonial-column">
+				<div class="col-12 col-md-4 col-lg-3">
+					<div class="testimonial-2-photo mx-auto rounded-circle testimonial-column" aria-hidden="true">
+					</div>
 				</div>
-			</div>
-				<div class="col-12 col-md-6 col-lg-3 testimonial-column">
+				<div class="col-12 col-md-8 col-lg-3 testimonial-column">
 					<p><i class="fa fa-quote-right"></i> Not only did the ginger trader do an amazing job at my
 						wallpapering,
 						but she helped me choose an awesome design that matched my style! Can't rate Jane highly
@@ -160,7 +160,7 @@
 						<a href="../images/wallpapering-the-ginger-trader.jpg" target="_blank">take a look here</a></p>
 					<h4>- Jane Doe</h4><br>
 				</div>
-			</div>
+				</div>
 	</section>
 
 	<!---------------- divider ----------------->
@@ -176,16 +176,54 @@
 	<section class="container-fluid testimonials bg-grad-grey">
 		<h2 class="heading-padding"><a name="get-a-quote">get a quote</a></h2>
 		<div class="row no-gutters my-auto">
+		</div>
+	</section>
 
 
 	<!---------------- footer ----------------->
 
 	<footer>
 		<div class="row no-gutters">
-			<div class="col-4 footer">
+			<div class="col-12 col-md-4 footer mx-auto">
+				<h2 class="white">contact me</h2>
+				<p class="white"><i class="fa fa-phone"></i> 07777 500 500</p>
+				<p class="white"><i class="fa fa-envelope"></i> jane@thegingertrader.com</p>
+			</div>
+			<div class="col-12 col-md-4 footer">
+				<h2 class="white">affiliations</h2>
+                <div class="city-and-guilds mx-auto">
+                </div>
+
+			</div>
+			<div class="col-12 col-md-4 footer">
+				<h2 class="white">social</h2>
+				<ul class="list-inline white social">
+					<li class="list-inline-item">
+						<a href="../images/coming-soon.jpg" target="_blank">
+							<i class="fab fa-facebook-square" aria-hidden="true"></i>
+							<span class="sr-only">Facebook </span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="../images/coming-soon.jpg" target="_blank">
+							<i class="fab fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="../images/coming-soon.jpg" target="_blank">
+							<i class="fab fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">Linked In</span>
+						</a>
+					</li>
+				</ul>
+                <p class="white"><i class="far fa-copyright"></i> Travels with Reggie</p>
+
 			</div>
 		</div>
 	</footer>
+
+	<!---------------- JavaScript / JQuery below -------------->
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
