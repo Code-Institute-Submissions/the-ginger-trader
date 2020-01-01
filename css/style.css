@@ -194,7 +194,7 @@ ul.navbar-nav > li.nav-item > a.custom-link:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 280px;
     max-width: 400px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -353,7 +353,7 @@ label.method {
 }
 
 .city-and-guilds {
-    background: url("../images/city-guilds-logo.png");
+    background: url("./images/city-guilds-logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
