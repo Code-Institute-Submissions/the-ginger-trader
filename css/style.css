@@ -123,7 +123,7 @@ position: relative;
     border:0;
 }
 
-/* the single line of code below is from an external source
+/* the single line of code below is from an external source to remove the blue outline on the hamburger menu
 https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740 */
 
 button.navbar-toggler:focus { 
@@ -219,8 +219,7 @@ ul.navbar-nav > li.nav-item > a.custom-link:hover {
 .circle-orange {
     width: 65px;
     height: 65px;
-    padding: 12px;
-    margin: 20px;
+    padding: 17px;
     border: 2px solid #f74e00;
     border-radius: 50%;
     font-size: 25px;
@@ -237,7 +236,7 @@ ul.navbar-nav > li.nav-item > a.custom-link:hover {
 .what-we-do-column {
     text-align: center;
     margin:0;
-    height: 180px;
+    height: 200px;
 }
 
 /*---------------- testimonials ----------------- */
@@ -297,6 +296,40 @@ ul.navbar-nav > li.nav-item > a.custom-link:hover {
 
 
 /*---------------- get a quote ----------------- */
+
+.get-a-quote-form {
+    color: #786e65;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+label.contact {
+    margin-left: 15px;
+}
+
+label.method {
+    margin-left: 30px;
+}
+
+.get-a-quote-button {
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #f74e00;
+    color: #ffffff;
+    border-radius: 8px;
+    height: 40px;
+    width: 250px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.get-a-quote-button:hover {
+    background-color: #786e65;
+}
 
 /*---------------- footer ----------------- */
 
