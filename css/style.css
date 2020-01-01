@@ -353,7 +353,7 @@ label.method {
 }
 
 .city-and-guilds {
-    background: url("./images/city-guilds-logo.png");
+    background: url("../images/city-guilds-logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
