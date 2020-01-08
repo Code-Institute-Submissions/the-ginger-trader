@@ -9,6 +9,20 @@ The site provides contact details and a form so customers can quickly and easily
 
 # ux
 
+-  **strategy** - the site is catchy, with a unique design and colour scheme for this sector.
+It also is simple with minimal content, that acheives the site owner's and users' goals. It's easy to
+contact the business owner to arrange a job
+- **scope** - simple, functional features that meet the business objectives kept this development 
+on schedule with potential future features listed below
+- **structure** - the site has a consitent theme and style with a menu at the top right. Any clickable links 
+have clear actions and responses. It's easy to know where you are on the site and the triangular
+dividers reveal the content below the fold, and it's easy to get back to the top. 
+- **skeleton** - information is revealed progressively as the user scrolls down the site and a limited number
+of features gives good usability. 
+- **surface** - the site is econimical in content, easily readable with a sensible sequence. 
+
+## user stories
+
 Site User wants to
 - find a handyman/woman that will do a specific job for them
 
@@ -74,9 +88,15 @@ additional staff being available to run it)
 
 - links
 
-All links have been checked - links to sections in the menu, links to local images and links to external sites
+All links have been checked - links to sections in the menu and links to local images. 
+The links to external sites display a "coming soon" image as the social media for the business
+has not yet been created. 
 
 - get a quote form
+
+On submission the form comes up with an error if it hasn't been filled in correctly (email address),
+ or information is missing. The form doesn't get submit information anywhere so there is no feedback
+ for a response. 
 
 - responsiveness
 
@@ -98,27 +118,30 @@ The site can be accessed at https://github.com/junokili/the-ginger-trader
 
 # credits
 
-- content: text and code is the developer's own apart from the additional code snippets used below 
+- **content:** text and code is the developer's own apart from the additional code snippets used below 
 (and commented on in style.css):
 
-CSS gradients (w3schools)
+    - CSS gradients (w3schools)
 https://www.w3schools.com/css/css3_gradients.asp
 
-Hamburger outline removal (stackoverflow):
+    - Hamburger outline removal (stackoverflow):
 https://stackoverflow.com/questions/50668594/removing-the-border-color-of-the-navbar-toggler-hamburger-icon-bootstrap-4/50668740
 
-Adding alt text to an image styled in the css file (stackoverflow):
+    - Adding alt text to an image styled in the css file (stackoverflow):
 https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute
 
-CSS box shadow (CSSmatic):
+    - CSS box shadow (CSSmatic):
 https://www.cssmatic.com/box-shadow
 
-Divider triangle (Aries Dagraca)
+    - Divider triangle (Aries Dagraca)
 https://iheartpagelines.com/creating-the-big-triangle-separator/
 
 
-- media: the photos used in this site are attributed to the ginger trader 
-(the-ginger-trader.jpg, diy-jobs-the-ginger-trader.png, wallpapering-the-ginger-trader.jpg) and the developer (rest)
+- **media:** the photos used in this site are attributed to: 
+    - the ginger trader: the-ginger-trader.jpg, diy-jobs-the-ginger-trader.png, wallpapering-the-ginger-trader.jpg) 
+    - the developer: testimonial-1.jpg, testimonial-2.jpg
+    - VectorStock: coming-soon.jpg https://www.vectorstock.com/royalty-free-vector/coming-soon-neon-sign-coming-soon-badge-in-vector-21133321
+    - seeklogo: city-guilds-logo.png https://seeklogo.com/vector-logo/213843/city-guilds
 
-- acknowledgments: the inspiration for this project has come from a shared career change path between the ginger trainer and the
+- **acknowledgments:** the inspiration for this project has come from a shared career change path between the ginger trainer and the
 developer, with design inspiration that came from the ginger trader's kitchen and the pantone colour palettes
