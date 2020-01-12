@@ -74,7 +74,8 @@ Future features:
 - **meet the team** - a section to show futher detail about the business owner and any additional employees
 - **chat bot** - for instant discussion about a potential/ongoing job (this would depend on 
 additional staff being available to run it)
-- **automatic reponse** - if a phone number is used in the get a quote form then an automated text maessage 
+- **automatic reponse** - an email will be sent to the site owner on form submission (currently the form is just indicative). 
+Plus, if a phone number is used in the get a quote form then an automated text maessage 
 will be sent to the customer to acknowledge receipt of the request. 
 
 # technologies used
@@ -99,6 +100,7 @@ has not yet been created.
 On submission the form comes up with an error if it hasn't been filled in correctly (email address), 
 or if required information (name, email address and details in the text box) is missing. The form doesn't yet submit information anywhere so there is no feedback 
 for a response. 
+In a future version the form data will be sent as an email to the site owner.  
 
 - responsiveness
 
