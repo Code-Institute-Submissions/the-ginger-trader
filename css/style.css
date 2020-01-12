@@ -6,7 +6,7 @@ general padding, headings and formatting --------*/
 body {
     font-family: "Poppins", sans-serif;
     color: #786e65;
-    }
+}
 
 .bg-grad-grey {
     background-image: linear-gradient(#bbb, #fff); 
@@ -54,7 +54,7 @@ https://iheartpagelines.com/creating-the-big-triangle-separator/ */
 
 /* gives the section a relative position  */
 section {
-position: relative;
+    position: relative;
 }
 
 /* catches the overflow from after/before   */
@@ -111,13 +111,14 @@ position: relative;
     padding-left: 0;
     padding-right: 0;
     z-index: 101;
-    }
+}
 
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(120, 110, 101);}
+    background-color: rgba(120, 110, 101, 0.9);
+}
 
 .navbar .navbar-toggler {
     border:0;
@@ -138,8 +139,20 @@ button.navbar-toggler:focus {
     color: #f74e00;
     text-decoration: none;
     transition-property: color;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    -ms-transition-property: color;
     transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
 }
 
 .navbar .navbar-logo:hover {
@@ -151,8 +164,20 @@ button.navbar-toggler:focus {
     font-size: 26px;
     color: #f74e00;
     transition-property: color;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    -ms-transition-property: color;
     transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
 }
 
 .fa-bars:hover {
@@ -165,14 +190,26 @@ ul.navbar-nav > li.mt-10 {
 
 ul.navbar-nav > li.mb-10 {
     margin-bottom: 10px;
-    }
+}
 
 ul.navbar-nav > li.nav-item > a.custom-link {
     font-size: 16px;
     color: white;
     transition-property: color;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    -ms-transition-property: color;
     transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
 }
 
 ul.navbar-nav > li.nav-item > a.custom-link:hover {
@@ -284,9 +321,20 @@ ul.navbar-nav > li.nav-item > a.custom-link:hover {
     font-weight: bold;
     font-size: 16px;
     transition-property: color;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    -ms-transition-property: color;
     transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
-
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
 }
 
 .testimonial-column a:hover {
@@ -323,8 +371,20 @@ label.method {
     height: 40px;
     width: 250px;
     transition-property: background-color;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color;
+    -ms-transition-property: background-color;
     transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
 }
 
 .get-a-quote-button:hover {
@@ -367,8 +427,20 @@ ul.social > li > a > i {
     font-size: 32px;
     color: #fff;
     transition-property: color;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    -ms-transition-property: color;
     transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
 }
 
 ul.social > li > a > i:hover {

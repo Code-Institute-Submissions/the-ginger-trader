@@ -74,6 +74,8 @@ Future features:
 - **meet the team** - a section to show futher detail about the business owner and any additional employees
 - **chat bot** - for instant discussion about a potential/ongoing job (this would depend on 
 additional staff being available to run it)
+- **automatic reponse** - if a phone number is used in the get a quote form then an automated text maessage 
+will be sent to the customer to acknowledge receipt of the request. 
 
 # technologies used
 
@@ -94,15 +96,16 @@ has not yet been created.
 
 - get a quote form
 
-On submission the form comes up with an error if it hasn't been filled in correctly (email address),
- or information is missing. The form doesn't get submit information anywhere so there is no feedback
- for a response. 
+On submission the form comes up with an error if it hasn't been filled in correctly (email address), 
+or if required information (name, email address and details in the text box) is missing. The form doesn't yet submit information anywhere so there is no feedback 
+for a response. 
 
 - responsiveness
 
 At every stage of the development process the responsiveness of the site has been checked (within gitpod and google inspect) as 
 the grid structuring uses responsive parameters for display effectiveness i.e. the "what we do" and "testimonials" sections
-are displayed as a single column on mobile and as two columns for a medium screen width and four columns for a large screen width. 
+are displayed as a single column on mobile and as two columns for a medium screen width and four columns for a large screen width.
+The site has also been tested on different browsers e.g. Chrome, Firefox, IE.  
 
 # deployment
 
