@@ -109,6 +109,10 @@ the grid structuring uses responsive parameters for display effectiveness i.e. t
 are displayed as a single column on mobile and as two columns for a medium screen width and four columns for a large screen width.
 The site has also been tested on different browsers e.g. Chrome, Firefox, IE.  
 
+- code errors
+
+HTML and CSS have been run through validators to identify any missed errors
+
 # deployment
 
 The site has been deployed on the developer's GitHub site through GitHub Pages.
